@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEFEB1F22DF9839B0032DF40 /* shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFEB1F02DF983860032DF40 /* shared.xcframework */; };
-		EEFEB1F32DF9839B0032DF40 /* shared.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEFEB1F02DF983860032DF40 /* shared.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EEE47CED2DF987F200792043 /* shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFEB1F02DF983860032DF40 /* shared.xcframework */; };
+		EEE47CEE2DF987F200792043 /* shared.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEFEB1F02DF983860032DF40 /* shared.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EEFEB1F42DF9839B0032DF40 /* Embed Frameworks */ = {
+		EEE47CEF2DF987F200792043 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EEFEB1F32DF9839B0032DF40 /* shared.xcframework in Embed Frameworks */,
+				EEE47CEE2DF987F200792043 /* shared.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEFEB1F22DF9839B0032DF40 /* shared.xcframework in Frameworks */,
+				EEE47CED2DF987F200792043 /* shared.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 				EEDDFC7D2DF9645100C723DD /* Sources */,
 				EEDDFC7E2DF9645100C723DD /* Frameworks */,
 				EEDDFC7F2DF9645100C723DD /* Resources */,
-				EEFEB1F42DF9839B0032DF40 /* Embed Frameworks */,
+				EEE47CEF2DF987F200792043 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

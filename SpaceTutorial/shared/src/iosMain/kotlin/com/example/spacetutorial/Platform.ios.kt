@@ -7,3 +7,6 @@ class IOSPlatform: Platform {
 }
 
 actual fun getPlatform(): Platform = IOSPlatform()
+actual suspend fun getSomethingAsync(): String {
+    return "ASync"
+}

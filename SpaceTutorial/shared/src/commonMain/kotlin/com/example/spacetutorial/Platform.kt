@@ -5,3 +5,4 @@ interface Platform {
 }
 
 expect fun getPlatform(): Platform
+expect suspend fun getSomethingAsync(): String
