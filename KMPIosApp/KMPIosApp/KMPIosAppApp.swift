@@ -20,6 +20,7 @@ struct KMPIosAppApp: App {
         WindowGroup {
             ContentView()
                 .task {
+                    let t = try? await Platform_iosKt.getSomethingAsync()
                     let launches = try? await helper.getLaunches(forceReload: true)
                     print(launches)
                 }
